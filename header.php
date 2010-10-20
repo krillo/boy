@@ -54,7 +54,7 @@
 
 <body <?php body_class(); ?>>
   <div id="head">
-    <div id="head-title"><a href="http:boyhappy.se"><h1>boyhappy</h1></a></div>
+    <div id="head-title"><a href="http://boyhappy.se"><h1>boyhappy</h1></a></div>
     <div id="head-description"><?php bloginfo( 'description' ); ?></div>
   </div>
   <div class="clear"></div>

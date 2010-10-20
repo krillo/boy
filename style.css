@@ -5,12 +5,12 @@ Description: Child Theme for Twenty Ten
 Author: Krillo
 Author URI: http://boyhappy.se/
 Template: twentyten
-Version: 0.1
+Version: 0.8
 */
 
 @import url("../twentyten/style.css");
 body{/*background:#A10413;*/
-background: #C7C7C7;
+background: #c7c7c7;
 background-image:url("images/bg.png");
 background-position:center center;
 background-repeat:repeat-y;
@@ -20,7 +20,8 @@ background-repeat:repeat-y;
 #head{width:400px;color:#A10413;
 height:110px;
 margin:52px auto 0;font-family: georgia,serif,arial,verdana;}
-#head h1{font-size:70px;font-weight:bold;margin-top:40px;color:#A10413;height:52px;}
+#head h1{font-size:70px;font-weight:bold;margin-top:40px;color:#A10413;height:52px;text-decoration: none;}
+div#head-title a{text-decoration: none; }
 #head-description {font-size:18px;}
 .clear{clear:both;}
 
