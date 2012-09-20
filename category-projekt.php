@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying Category Archive pages.
+ * The template for displaying Category Projekt Archive page.
  *
  * @package WordPress
  * @subpackage Twenty_Ten
@@ -11,7 +11,7 @@ get_header();
 
 <div id="container">
   <div id="content" role="main">
-    <?php query_posts(array('orderby' => 'date', 'order' => 'ASC'));
+    <?php query_posts(array('orderby' => 'date', 'order' => 'DESC', 'category_name' => 'projekt'));
     if (have_posts()) : while (have_posts()) : the_post();
         ?>
         <div class="cat-content">
