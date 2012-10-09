@@ -50,9 +50,9 @@ if ($paged >= 2 || $page >= 2)
     wp_head();
     ?>
     <script type="text/javascript">
-
       var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-24943657-1']);
+      _gaq.push(['_setAccount', 'UA-28239506-1']);
+      _gaq.push(['_setDomainName', 'reptilo.se']);
       _gaq.push(['_trackPageview']);
 
       (function() {
@@ -60,9 +60,9 @@ if ($paged >= 2 || $page >= 2)
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
       })();
-
     </script>
   </head>
+
 
   <body <?php body_class(); ?>>
     <div id="head">
